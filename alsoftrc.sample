@@ -16,7 +16,7 @@
 #
 # The system-wide settings can be put in /etc/openal/alsoft.conf and user-
 # specific override settings in $HOME/.alsoftrc.
-# For Windows, these settings should go into $AppData\alsoft.ini
+# For Windows, these settings should go into %AppData%\alsoft.ini
 #
 # Option and block names are case-senstive. The supplied values are only hints
 # and may not be honored (though generally it'll try to get as close as
@@ -146,7 +146,7 @@
 #  directories must have the .mhr file extension to be recognized. By default,
 #  OS-dependent data paths will be used. They will also be used if the list
 #  ends with a comma. On Windows this is:
-#  $AppData\openal\hrtf
+#  %AppData%\openal\hrtf
 #  And on other systems, it's (in order):
 #  $XDG_DATA_HOME/openal/hrtf  (defaults to $HOME/.local/share/openal/hrtf)
 #  $XDG_DATA_DIRS/openal/hrtf  (defaults to /usr/local/share/openal/hrtf and
